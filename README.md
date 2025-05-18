@@ -31,26 +31,26 @@ This project simulates real-world **penetration testing** and **defense mechanis
 ### 1. 🔍 Network Scanning
 - Detect live hosts and open ports:
   ```bash
-  nmap -v 192.168.56.0/24
+  nmap -v 192.168.112.1/24
 2. 🕵️ Reconnaissance
 Hidden port scan:
 
 bash
 Copy
 Edit
-nmap -v -p- 192.168.56.102
+nmap -v -p- 192.168.112.1
 Service version detection:
 
 bash
 Copy
 Edit
-nmap -v -sV 192.168.56.102
+nmap -v -sV 192.168.112.1
 OS detection:
 
 bash
 Copy
 Edit
-nmap -v -O 192.168.56.102
+nmap -v -O 192.168.112.1
 3. 📑 Enumeration
 Operating System: Linux 2.6.9 - 2.6.33
 
